@@ -1,0 +1,11 @@
+- name: "kavya"
+  dob: "1998"
+  age: "28"
+  addresses:
+  - city: "hyderabad"
+    street: "hastinapuram"
+    type: "perm"
+  skills:
+  - java
+  - devops
+  - python

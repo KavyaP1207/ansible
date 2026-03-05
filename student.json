@@ -1,0 +1,12 @@
+{
+    "name":  "kavya",
+    "dob": "1998",
+    "address": [
+        {
+            "type": "perm",
+            "city": "hyderabad"
+        }
+
+    ],
+    "skills": ["java", "pyhton"]
+}

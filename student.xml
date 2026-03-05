@@ -1,0 +1,13 @@
+<student>
+    <name>kavya</name>
+    <dob>1998</dob>
+    <age>28</age>
+    <addresses>
+       <address type="perm">hyderabad</address>
+       <address type="temp">mumbai</address>
+    </addresses>
+    <skills>
+    <skill>java</skill>
+    <skill>python</skill>
+    </skills>
+</student>
