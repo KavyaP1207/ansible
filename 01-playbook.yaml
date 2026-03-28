@@ -1,5 +1,5 @@
 - name: ping the server
-  hosts: all
+  hosts: all #which server we are gng to be connecting
   tasks:
     - name: ping test
       ansible.builtin.ping:
