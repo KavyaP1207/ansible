@@ -1,0 +1,10 @@
+- name: play level varibales
+  hosts: local
+  connection: local # ansible is connecting to local host
+  vars:
+    COURSE: ansible
+    DURATION: 10HRS
+    TRAINER: kavya reddy
+  tasks: 
+  - name: print the course info
+    msg: "course name is {{COURSE}}, DURATION: {{DURATION}}, trainer: {{TRAINER}}"
