@@ -7,4 +7,5 @@
     TRAINER: kavya reddy
   tasks: 
   - name: print the course info
+    ansible.builtin.debug:
     msg: "course name is {{COURSE}}, DURATION: {{DURATION}}, trainer: {{TRAINER}}"
