@@ -1,12 +1,11 @@
 - name: loops
   hosts: local
   connection: local
-  become: yes
   tasks:
   - name: print the name in loops
-    ansible.builtin.package:
+    ansible.builtin.debug:
       msg: " hello, {{ item }}"
     loop:
-    - nginx
-    - mysql
-    - zip
+    - kavya
+    - kavya2
+    - kavya3
