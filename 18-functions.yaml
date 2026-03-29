@@ -4,6 +4,7 @@
   vars:
     technologies: Devops, linux, shell, ansible #string
     name: "kavya reddy"
+    gmail: "kavyareddy@GMAIL.COM"
     # dictionary==map
     tags:
       Application: payment
@@ -47,3 +48,7 @@
   - name: convert into uppercase
     ansible.builtin.debug:
       msg: "{{ name | upper }}"
+
+  - name: convert into lowercase
+    ansible.builtin.debug:
+      msg: "{{ name | lower }}"
