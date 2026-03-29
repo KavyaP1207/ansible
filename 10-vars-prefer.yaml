@@ -15,3 +15,10 @@
       name: from task level
     ansible.builtin.debug:
       msg: "name is : {{name}}"
+
+      # 1.command line/args
+      # 2. from prompt
+      # 3.from files
+      # 4.prompting
+      # 5. play level 
+      # 6. inventory
