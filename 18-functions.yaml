@@ -5,8 +5,7 @@
     technologies: Devops, linux, shell, ansible #string
     name: "kavya reddy"
     gmail: "kavyareddy@GMAIL.COM"
-    ipaddress: 10.0.30.126 #1253:1564:565:566  #will get err bcoz max ipaddress is 255.255.255.255
-    ipaddress:
+    ipaddress: 192.168.1.1 #1253:1564:565:566  #will get err bcoz max ipaddress is 255.255.255.255
     # dictionary==map
     tags:
       Application: payment
